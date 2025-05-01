@@ -1,0 +1,78 @@
+[<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقع العقارات</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    header { background: #2c3e50; color: white; padding: 1em; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; }
+    .property { background: white; padding: 15px; margin: 10px 0; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+    footer { background: #2c3e50; color: white; text-align: center; padding: 1em; margin-top: 20px; }
+    form input, form textarea { width: 100%; padding: 10px; margin: 5px 0; border-radius: 4px; border: 1px solid #ccc; }
+    form button { background: #27ae60; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+    form button:hover { background: #219150; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>موقع العقارات</h1>
+    <nav>
+      <a href=\"#sale\">عقارات للبيع</a>
+      <a href=\"#rent\">عقارات للإيجار</a>
+      <a href=\"#contact\">اتصل بنا</a>
+    </nav>
+  </header>
+
+  <section id=\"sale\">
+    <h2>عقارات للبيع</h2>
+    <div class=\"property\">
+      <h3>شقة 3 غرف - عمان</h3>
+      <p>السعر: 85,000 دينار</p>
+      <p>موقع ممتاز وقريبة من الخدمات.</p>
+    </div>
+    <div class=\"property\">
+      <h3>فيلا فاخرة - اربد</h3>
+      <p>السعر: 220,000 دينار</p>
+      <p>بمسبح وحديقة خاصة.</p>
+    </div>
+  </section>
+
+  <section id=\"rent\">
+    <h2>عقارات للإيجار</h2>
+    <div class=\"property\">
+      <h3>شقة مفروشة - الزرقاء</h3>
+      <p>الإيجار الشهري: 300 دينار</p>
+      <p>تشطيب فاخر وموقع مركزي.</p>
+    </div>
+    <div class=\"property\">
+      <h3>محل تجاري - العقبة</h3>
+      <p>الإيجار الشهري: 500 دينار</p>
+      <p>مناسب للمشاريع الصغيرة.</p>
+    </div>
+  </section>
+
+  <section id=\"contact\">
+    <h2>اتصل بنا</h2>
+    <form>
+      <label>الاسم:</label>
+      <input type=\"text\" name=\"name\" required>
+
+      <label>البريد الإلكتروني:</label>
+      <input type=\"email\" name=\"email\" required>
+
+      <label>الرسالة:</label>
+      <textarea name=\"message\" rows=\"5\" required></textarea>
+
+      <button type=\"submit\">إرسال</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 موقع العقارات - جميع الحقوق محفوظة
+  </footer>
+ </body>
+</html>
+
